@@ -1,93 +1,71 @@
 /** business logic */
-$(document).ready(function () {
-    $("#img1").click(function () {
-        $("#img1").hide();
-        $("#design").show();
-    });
-    $("#design").click(function () {
-        $("#design").hide();
-        $("#img1").show();
-    });
-    $("#img2").click(function () {
-        $("#img2").hide();
-        $("#develop").show();
-    });
-    $("#develop").click(function () {
-        $("#develop").hide();
-        $("#img2").show();
-    });
-    $("#img3").click(function () {
-        $("#img3").hide();
-        $("#product").show();
-    });
-    $("#product").click(function () {
-        $("#product").hide();
-        $("#img3").show();
-    });
+$(function(){
 
-
-    $("#one").mouseover(function () {
-        $("#para1").show();
+    $("#col-md-4-1").click(function(){
+    $(".hidden1").slideToggle(1600)
+    $(".img1").slideToggle(1600)
     });
-    $("#one").mouseleave(function () {
-        $("#para1").hide();
+    
+    $("#col-md-4-2").click(function(){
+    $(".hidden2").slideToggle(1600)
+    $(".img2").slideToggle(1600)
     });
-    $("#two").mouseover(function () {
-        $("#para2").show();
+    
+    $("#col-md-4-3").click(function(){
+    $(".hidden3").slideToggle(1600)
+    $(".img3").slideToggle(1600)
     });
-    $("#two").mouseleave(function () {
-        $("#para2").hide();
+    
+    $(".work4-image").hover(function(){
+    $("#work4-overlay").toggle()
+    $("#work4-img").toggle()
     });
-    $("#three").mouseover(function () {
-        $("#para3").show();
+    
+    $(".work3-image").hover(function(){
+    $("#work3-overlay").toggle()
+    $("#work3-img").toggle()
     });
-    $("#three").mouseleave(function () {
-        $("#para3").hide();
+    
+    $(".work2-image").hover(function(){
+    $("#work2-overlay").toggle()
+    $("#work2-img").toggle()
     });
-    $("#four").mouseover(function () {
-        $("#para4").show();
+    
+    $(".work1-image").hover(function(){
+    $("#work1-overlay").toggle()
+    $("#work1-img").toggle()
     });
-    $("#four").mouseleave(function () {
-        $("#para4").hide();
+    
+    $(".work5-image").hover(function(){
+    $("#work5-overlay").toggle()
+    $("#work5-img").toggle()
     });
-    $("#five").mouseover(function () {
-        $("#para5").show();
+    
+    $(".work6-image").hover(function(){
+    $("#work6-overlay").toggle()
+    $("#work6-img").toggle()
     });
-    $("#five").mouseleave(function () {
-        $("#para5").hide();
+    
+    $(".work7-image").hover(function(){
+    $("#work7-overlay").toggle()
+    $("#work7-img").toggle()
     });
-    $("#six").mouseover(function () {
-        $("#para6").show();
+    
+    $(".work8-image").hover(function(){
+    $("#work8-overlay").toggle()
+    $("#work8-img").toggle()
     });
-    $("#six").mouseleave(function () {
-        $("#para6").hide();
-    });
-    $("#seven").mouseover(function () {
-        $("#para7").show();
-    });
-    $("#seven").mouseleave(function () {
-        $("#para7").hide();
-    });
-    $("#eight").mouseover(function () {
-        $("#para8").show();
-    });
-    $("#eight").mouseleave(function () {
-        $("#para8").hide();
-    });
-
-
-    $(document).ready(function(){
-        $("#form").submit(function (event) {
-            var userName = $("#name").val();
-            var userEmail = $("#email").val();
-            var userMessage = $("#message").val();
-            /** user logic interface */
-            if ((userName === "") && (userEmail === "") && (userMessage === "")) {
-                alert("please fill in the required data");
-            }
-            else {
-                alert(myName + ',We have received your message.Thank you for reaching out to us');
-            }
-            event.preventDefault();
-        });
-    });
+    
+        // $("#form").submit(function (event) {
+        //     var userName = $("#name").val();
+        //     var userEmail = $("#email").val();
+        //     var userMessage = $("#message").val();
+        //     /** user logic interface */
+        //     if ((userName === "") && (userEmail === "") && (userMessage === "")) {
+        //         alert("please fill in the required data");
+        //     }
+        //     else {
+        //         alert(myName + ',We have received your message.Thank you for reaching out to us');
+        //     }
+        //     event.preventDefault();
+        // });
