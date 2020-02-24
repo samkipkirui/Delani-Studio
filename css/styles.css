@@ -18,3 +18,65 @@
     font-size: 20px;
 
 }
+#portfolio{
+    text-align: center;
+}
+#contact{
+    background-image: url('../images/backgrounds/c_image.jpg');
+    text-align: center;
+    color: white;
+}
+form{
+    text-align: center;
+    form-size: 5%;
+}
+.container-whatwedo {
+    text-align: center;
+}
+#portfolio{
+    text-align: center;
+}
+#footer{
+    text-align: center;
+    font-size: large;
+}
+#icons{
+    text-align: center;
+}
+#name{
+    background: none;
+}
+#email{
+    background: none;
+}
+#message{
+    background: none;
+}
+}
+footer{
+display: inline-block;
+}
+.inpo{
+width: 35%;
+}
+input{
+background: inherit;
+width: 25%;
+}
+input{
+  color:white;
+}
+textarea {
+background: inherit;
+width: 50%;
+color:white;
+}
+button{
+  width: 20%;
+}
+.to-hide{
+    display: n;
+}
+.fafa{
+    text-align: center;
+}
