@@ -42,7 +42,7 @@ Incase of any questions, problems ideas concerning the website, feel free to rea
 ***MIT LICENSE***
 
 
-Copyright (c) 2019 **sam kipkurui**
+Copyright (c) 2020 **sam kipkurui**
 
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
