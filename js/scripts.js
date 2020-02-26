@@ -79,3 +79,28 @@
                     $(".img1").show();
                     });
             });
+            $(document).ready(function(){
+                $(".img2").click(function(){
+                    $(this).hide();
+                    $(".hidden2").show();
+                    });
+                    $(".hidden2").click(function(){
+                        $(this).hide();
+                        $(".img2").show();
+                        });
+                });
+            $(document).ready(function(){
+                $(".img3").click(function(){
+                    $(this).hide();
+                    $(".hidden3").show();
+                    });
+                    $(".hidden3").click(function(){
+                        $(this).hide();
+                        $(".img3").show();
+                        });
+                });
+
+
+            
+           
+    
