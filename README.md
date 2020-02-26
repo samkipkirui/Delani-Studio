@@ -36,7 +36,7 @@ This is a `clone` of *Delani Studio Website*. **Delani Studio** is a business we
     2. Message input: The user can input anything. i.e long/short text, media stuff, offensive words, numbers, a single letter etc.
 
 ### Support and contact details
-Incase of any questions, problems ideas concerning the website, feel free to reach out to me via email.(evansonchagwa01@gmail.com)
+Incase of any questions, problems ideas concerning the website, feel free to reach out to me via email.(samkemoi8507@gmail.com)
 
 #### License
 ***MIT LICENSE***
