@@ -7,7 +7,7 @@ This is a `clone` of *Delani Studio Website*. **Delani Studio** is a business we
  
 
 ### Delani Studio
-![Delani website](media/Dstudio.jpg)
+
 
 ### Setup and installation requirements
 - ` git clone https://github.com/DjCooGie/prepstudio3.git `
@@ -26,7 +26,7 @@ This is a `clone` of *Delani Studio Website*. **Delani Studio** is a business we
 |----------|-------|
 | The page loads showing a landing page | Click on the 'WHAT WE DO' icons to view and read descriptions. Also, hover on the PORTFOLIO images to view project titles | 
 
-### Live link: [https://djcoogie.github.io/prepstudio3/](https://djcoogie.github.io/prepstudio3/)
+### Live link: 
 
 ### Bugs
 - In some small screens, the responsiveness of the PORTFOLIO images is not exploited as expected and the whole problem is under development.
